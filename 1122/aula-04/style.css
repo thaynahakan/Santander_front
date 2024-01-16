@@ -1,0 +1,27 @@
+
+
+div {
+    background: purple;
+}
+
+p {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#item {
+    background: green;
+}
+
+.conteudo {
+    background: pink;
+}
+
+.conteudo ul {
+    background: red;
+}
+.conteudo ul li {
+    background: rgb(255, 213, 0);
+    margin-bottom: 10px;
+    list-style: georgian;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><center>Sailor Moon Cafe </center></h1>
+    <div class="sailorcoffee">
+        <img src="sailorcoffee.png" alt="logo copiada da internet sailor">
+    </div>
+    <p>Selecione a opção:</p>
+    <nav>
+        <ul>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#pedido">Fazer Pedido</a></li>
+        </ul>
+    </nav>
+    <div id="cardapio">
+    
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pratos</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                        <th>Imagem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cakets</td>
+                        <td>Deliciosos bolinhos em formato de cajado mágico.</td>
+                        <td>R$ 40,00</td>
+                        <td><img src="cakets.jpg" alt="Cakets"></td>
+                    </tr>
+                    <tr>
+                        <td>HamburCats</td>
+                        <td>Os melhores hambúrgueres do reino lunar.</td>
+                        <td>R$ 65,00</td>
+                        <td><img src="hamburcats.webp" alt="HamburCats"></td>
+                    </tr>
+                    <tr>
+                        <td>Sundae Moon</td>
+                        <td>Na verdade não é um sundae, na verdade ninguém sabe, é uma bebida misteriosa! </td>
+                        <td>50,00</td>
+                        <td><img src="sundaemoon.jpg" alt="sundaemoon"></td>
+                    </tr>
+                </tbody>   
+            </table>
+            <table> 
+                <thead>
+                    <tr>
+                        <th>Bebidas</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                        <th>Imagem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cálice da Vitória</td>
+                        <td>Um cálice de soda italiana com a junção dos sabores favoritos de todas as sailors!</td>
+                        <td>38,00</td>
+                        <td><img src="calicedavitoria.jpg" alt="calicedavitoria"></td>
+                    </tr>
+                    <tr>
+                        <td>Sailor Hot Cocoa</td>
+                        <td>Um café expresso favorito da Serena, muito doce e bem quentinho</td>
+                        <td>10,00</td>
+                        <td><img src="sailorhotcocoa.jpg" alt="sailorhotcocoa"></td>
+                    </tr>
+                    <tr>
+                        <td>Gelatto Moon</td>
+                        <td>Sorvete com sabor de delícia, amém.</td>
+                        <td>30,00</td>
+                        <td><img src="gelatto.jpg" alt="gelattomoon"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 Sailor Moon Patisserie</p>
+        </footer>
+        <h2>Fazer Pedido:</h2>
+        <section>
+            <form>
+                <label for="pedido">Pedido</label>
+                <select name="pratos" id="pratos">
+                    <optgroup label="Pratos">
+                        <option value="1">Cakets</option>
+                        <option value="2">HamburCats</option>
+                        <option value="3">Misterio Moon</option>
+                    </optgroup>
+        
+                    <optgroup label="Bebidas">
+                        <option value="4">Calice da vitória</option>
+                        <option value="5">Sailor Hot Cocoa</option>
+                        <option value="6">Gelatto Moon</option>
+                    </optgroup>
+                </select>
+                <div id="pedido">
+
+                </div>
+                <!-- Adicione um campo para a quantidade desejada -->
+                <label for="quantidade">Quantidade</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" value="1">
+        
+                <button type="submit">Enviar Pedido</button>
+                 
+            </form>
+            <hr />
+        </section>
+    </div>
+    <div>
+        <script>
+            function enviarPedido() {
+                // Aqui você pode realizar ações antes de enviar o formulário, se necessário
+        
+                // Redireciona para a página de confirmação
+                window.location.href = "pedido_confirmado.html";
+            }
+        </script>
+    </div>
+</body>
+</html>

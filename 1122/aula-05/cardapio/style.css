@@ -1,0 +1,43 @@
+h1 {
+    color: #f0ff90;
+}
+
+h2{
+    color: #9703f3;
+}
+
+/* Estilizando a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+/* Estilizando as células da tabela */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilizando as imagens */
+img {
+    max-width: 100%; /* Defina o tamanho máximo da largura conforme necessário */
+    max-height: 300px; /* Defina o tamanho máximo da altura conforme necessário */
+    display: block; /* Evita espaços extras abaixo das imagens */
+    margin: auto; /* Centraliza as imagens */
+}
+
+body {
+    background-color: #fbefa46d; /* Cor de fundo */
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-gradiente-de-ceu-pastel_23-2148898336.jpg?w=1380&t=st=1705422981~exp=1705423581~hmac=6adbac29d6b126c19b415fa7bcb5a8c53e46272c36bde07c3ecf577b514ea734); /* Imagem de fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
+}
+body {
+    font-family: 'Arial', sans-serif; /* Substitua 'Arial' pela fonte desejada */
+}
+
+h1, h2, h3, p, label, th, td {
+    font-family: 'Georgia', serif; /* Substitua 'Georgia' pela fonte desejada */
+}

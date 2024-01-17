@@ -10,8 +10,12 @@ h2{
 table {
     background-color: #ffffcc68;
     width: 100%;
+    max-width: 600px;
     border-collapse: collapse;
     margin-top: 20px; /* Ajuste conforme necessário */
+    margin-left: auto; /* Centraliza a tabela horizontalmente */
+    margin-right: auto; /* Centraliza a tabela horizontalmente */
+
 }
 
 /* Estilizando as células da tabela */
@@ -20,7 +24,15 @@ td {
     padding: 8px;
     text-align: left;
 }
+td img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da célula */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave para o efeito */
+}
 
+/* Aplica um aumento de tamanho ao passar o mouse na imagem */
+td img:hover {
+    transform: scale(12.2); /* Ajuste o valor conforme necessário para o aumento desejado */
+}
 /* Estilizando as imagens */
 img {
     max-width: 90%; /* Defina o tamanho máximo da largura conforme necessário */

@@ -44,7 +44,7 @@ img {
 body {
     background-color: #fbefa46d; /* Cor de fundo */
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-gradiente-de-ceu-pastel_23-2148898336.jpg?w=1380&t=st=1705422981~exp=1705423581~hmac=6adbac29d6b126c19b415fa7bcb5a8c53e46272c36bde07c3ecf577b514ea734); /* Imagem de fundo */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
+ 
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
     font-family:'Georgia', serif; /* Substitua 'Arial' pela fonte desejada */
 }
@@ -62,3 +62,27 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+body {
+    text-align: center; /* Centraliza o conteúdo do corpo da página */
+}
+
+#formulario-pedido {
+    display: inline-block; /* Torna o formulário um bloco de nível e mantém o alinhamento centralizado */
+    text-align: left; /* Alinha o texto do formulário à esquerda dentro do bloco centralizado */
+    margin: 20px auto; /* Adiciona margens para ajustar a posição vertical e horizontalmente */
+}
+
+#pedido {
+    text-align: center; /* Centraliza o texto do pedido dentro do div */
+}
+
+a {
+    display: block; /* Faz com que o link "Voltar" seja exibido como bloco para centralizar */
+    margin: 20px auto; /* Adiciona margens para ajustar a posição vertical e horizontalmente */
+}
+
+p {
+    text-align: center; /* Centraliza o texto do rodapé */
+}
+

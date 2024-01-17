@@ -82,14 +82,11 @@
                 </tbody>
             </table>
         </section>
-    
-        <footer>
-        </footer>
         <h2>Monte seu Combo:</h2>
         <section>
 
             <form id="formulario-pedido" onsubmit="enviarPedido()">
-                <label for="pratos">Prato</label>
+                <label for="pratos">Prato:</label>
                 <select name="pratos" id="pratos">
                     <optgroup label="Pratos">
                         <option value="1">Cakets</option>
@@ -98,12 +95,12 @@
                     </optgroup>
                 </select>
                 
-                <label for="quantidade-pratos">Quantidade</label>
+                <label for="quantidade-pratos">Quantidade:</label>
                 <input type="number" id="quantidade-pratos" name="quantidade-pratos" min="1" value="1">
                 
-                <br>
+                <br/>
         
-                <label for="bebida">Bebida</label>
+                <label for="bebida">Bebida:</label>
                 <select name="bebida" id="bebida">
                     <optgroup label="Bebidas">
                         <option value="1">Calice da vitória</option>
@@ -112,17 +109,16 @@
                     </optgroup>
                 </select>
                 
-                <label for="quantidade-bebida">Quantidade</label>
+                <label for="quantidade-bebida">Quantidade:</label>
                 <input type="number" id="quantidade-bebida" name="quantidade-bebida" min="1" value="1">
         
                 <!-- Div para exibir o pedido -->
-                <div id="pedido"></div>
+                <div id="pedido"></div> <br/>
         
                 <!-- Botão de envio -->
-                <button type="submit">Enviar Pedido</button>
-                
+                <button type="submit" id="btenvi">Enviar Pedido</button>
             </form>
-            <hr />
+            <hr/>
         </section>
     </div>
     <a href="segunda-tela.html">Voltar</a>

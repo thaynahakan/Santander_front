@@ -1,0 +1,55 @@
+body {
+    background-color: #a4f1fbb3; /* Cor de fundo */
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-gradiente-de-ceu-pastel_23-2148898336.jpg?w=1380&t=st=1705422981~exp=1705423581~hmac=6adbac29d6b126c19b415fa7bcb5a8c53e46272c36bde07c3ecf577b514ea734); /* Imagem de fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
+    font-family: 'Inconsolata', monospace;
+    margin: ;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Garante que a página ocupa pelo menos 100% da altura da viewport */
+}
+p {
+    /* Ajusta o estilo do parágrafo */
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço extra abaixo do parágrafo */
+    line-height: 1.5;
+}
+
+h1 {
+    color: #333333;
+}
+
+form {
+    max-width: 400px;
+    margin-top: 20px;
+    background-color: #fbefa485; /* Adiciona um fundo branco transparente ao formulário */
+    padding: 20px;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e51a5799;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

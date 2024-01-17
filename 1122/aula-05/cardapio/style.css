@@ -34,11 +34,19 @@ body {
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-gradiente-de-ceu-pastel_23-2148898336.jpg?w=1380&t=st=1705422981~exp=1705423581~hmac=6adbac29d6b126c19b415fa7bcb5a8c53e46272c36bde07c3ecf577b514ea734); /* Imagem de fundo */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
-}
-body {
     font-family:'Georgia', serif; /* Substitua 'Arial' pela fonte desejada */
 }
 
 h1, h2, h3, p, label, th, td {
-    font-family: 'Georgia', serif; /* Substitua 'Georgia' pela fonte desejada */
+    font-family: 'Inconsolata', monospace;
+}
+
+
+button {
+    background-color: #e51a5799;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

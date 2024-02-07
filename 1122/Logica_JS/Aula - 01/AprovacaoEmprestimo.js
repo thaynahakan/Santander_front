@@ -13,7 +13,7 @@ Salário: 5000 - Score: 700 - idade: 18 => Saída: true
 Salário: 4999 - Score: 700 - idade: 18 => Saída: false
 Salário: 5000 - Score: 699 - idade: 18 => Saída: false
 Salário: 5000 - Score: 700 - idade: 17 => Saída: false */
-
+const prompt = require(`prompt-sync`)();
 // Receber entrada do usuário
 let salario = parseFloat(prompt("Digite o salário:"));
 let scoreDeCredito = parseInt(prompt("Digite o score de crédito:"));

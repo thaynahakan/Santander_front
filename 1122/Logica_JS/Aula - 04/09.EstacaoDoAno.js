@@ -14,7 +14,7 @@ switch (mes) {
     case "dezembro":
     case "janeiro":
     case "fevereiro":
-        estacao = "Inverno";
+        estacao = "Verão";
         break;
     case "março":
     case "abril":
@@ -24,12 +24,12 @@ switch (mes) {
     case "junho":
     case "julho":
     case "agosto":
-        estacao = "Verão";
+        estacao = "outono";
         break;
     case "setembro":
     case "outubro":
     case "novembro":
-        estacao = "Outono";
+        estacao = "Verão de Novo";
         break;
     default:
         console.log("Por favor, digite um mês válido.");

@@ -10,3 +10,15 @@ do {
     console.log(contador)
     contador -= 1;
 } while (contador >= 0);
+
+/* 
+feito apenas com while
+
+console.log('Contagem Regressiva:');
+
+let contador = 10;
+
+while (contador >= 0) {
+    console.log(contador);
+    contador -= 1;
+} */

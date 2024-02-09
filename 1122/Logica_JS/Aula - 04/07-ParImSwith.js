@@ -8,7 +8,7 @@ console.log("Uma, duas, três meia e já!")
 
 switch (ImPar % 2 === 0) {
     case true:
-        console.log(ImPar + "É par!")
+        console.log(ImPar + " É par!")
         break
     case false:
         console.log(ImPar + "É ímpar")

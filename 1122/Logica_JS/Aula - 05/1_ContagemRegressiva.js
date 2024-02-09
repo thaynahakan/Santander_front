@@ -9,7 +9,7 @@ let contador = 10;
 do {
     console.log(contador)
     contador -= 1;
-} while (contador >= 0);
+} while (contador > 0);
 
 /* 
 feito apenas com while

@@ -7,13 +7,13 @@ da média aritmética */
 let notas = [8.5, 9.0, 7.5]; // Substitua esses valores pelas notas reais do aluno
 
 // Calcular a média aritmética
-var soma = 0;
+let soma = 0;
 
 for (var i = 0; i < notas.length; i++) {
     soma += notas[i];
 }
 
-var media = soma / notas.length;
+let media = soma / notas.length;
 
 // Exibir a média
 console.log("Notas: " + notas.join(", "));

@@ -35,16 +35,15 @@ td img:hover {
 }
 /* Estilizando as imagens */
 img {
-    max-width: 90%; /* Defina o tamanho máximo da largura conforme necessário */
-    max-height: 150px; /* Defina o tamanho máximo da altura conforme necessário */
+    max-width: 100%; /* Defina o tamanho máximo da largura conforme necessário */
+    max-height: 100%; /* Defina o tamanho máximo da altura conforme necessário */
     display: block; /* Evita espaços extras abaixo das imagens */
     margin: auto; /* Centraliza as imagens */
 }
 
 body {
     background-color: #fbefa46d; /* Cor de fundo */
-    background-image: url(https://img.freepik.com/vetores-gratis/fundo-gradiente-de-ceu-pastel_23-2148898336.jpg?w=1380&t=st=1705422981~exp=1705423581~hmac=6adbac29d6b126c19b415fa7bcb5a8c53e46272c36bde07c3ecf577b514ea734); /* Imagem de fundo */
- 
+    background-image: url(https://i.pinimg.com/originals/0d/ff/12/0dff12883e37d102981a1cbf01401a64.png); /* Imagem de fundo */
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
     font-family:'Georgia', serif; /* Substitua 'Arial' pela fonte desejada */
 }
@@ -67,6 +66,9 @@ body {
     text-align: center; /* Centraliza o conteúdo do corpo da página */
 }
 
+main {
+    display: flex;
+}
 #formulario-pedido {
     display: inline-block; /* Torna o formulário um bloco de nível e mantém o alinhamento centralizado */
     text-align: left; /* Alinha o texto do formulário à esquerda dentro do bloco centralizado */

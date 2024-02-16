@@ -7,17 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="sailorcoffee">
-        <img src="img/sailorcoffee.png" alt="logo copiada da internet sailor">
-    </div>
-    <p>Selecione a opção:</p>
-    <nav>
-        <ul>
-            <li><a href="#cardapio">Cardápio</a></li>
-            <li><a href="#pedido">Fazer Pedido</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <a href="#cardapio">Cardápio</a></li>
+            <a href="#pedido">Fazer Pedido</a></li>
+        </nav></header>
+    <main>
+        <img src="img/maids.jpg" alt="imagem das sailors juntas">
     <div id="cardapio">
     
         <section>
@@ -84,7 +80,7 @@
         </section>
         <h2>Monte seu Combo:</h2>
         <section>
-
+    </main>
             <form id="formulario-pedido" onsubmit="enviarPedido()">
                 <label for="pratos">Prato:</label>
                 <select name="pratos" id="pratos">

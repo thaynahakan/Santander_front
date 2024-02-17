@@ -15,7 +15,7 @@ table {
     margin-top: 20px; /* Ajuste conforme necessário */
     margin-left: auto; /* Centraliza a tabela horizontalmente */
     margin-right: auto; /* Centraliza a tabela horizontalmente */
-
+    margin-bottom: 20px;
 }
 
 /* Estilizando as células da tabela */
@@ -39,6 +39,7 @@ img {
     max-height: 100%; /* Defina o tamanho máximo da altura conforme necessário */
     display: block; /* Evita espaços extras abaixo das imagens */
     margin: auto; /* Centraliza as imagens */
+    
 }
 
 body {
@@ -68,7 +69,16 @@ body {
 
 main {
     display: flex;
+    justify-content: center;
+
 }
+
+.cardapio {
+    display: flexbox;
+    flex: 1;
+}
+
+
 #formulario-pedido {
     display: inline-block; /* Torna o formulário um bloco de nível e mantém o alinhamento centralizado */
     text-align: left; /* Alinha o texto do formulário à esquerda dentro do bloco centralizado */
@@ -88,3 +98,12 @@ p {
     text-align: center; /* Centraliza o texto do rodapé */
 }
 
+.content {
+    display: flex;
+    max-width: 1200px;
+}
+
+.image-container {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    margin-right: 20px; /* Adiciona espaçamento entre a imagem e o cardápio */
+}

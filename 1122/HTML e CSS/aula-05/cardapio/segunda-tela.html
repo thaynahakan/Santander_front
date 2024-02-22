@@ -20,7 +20,7 @@
 <body class="container">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Sailor Coffee</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,38 +28,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+              <a class="nav-link" href="sailorcoffee.html">Página Principal<span class="sr-only">(current)</span></a>
         </div>
     </nav>
 
-    <div class="container">
+  <header>
         <h1>Cadastro de Reserva Sailor Moon Cafe</h1>
         <p>Aqui você cria o seu cadastro, necessário para fazer uma reserva no Sailor Cafe e ter uma experiência mais personalizada e única, não deixe de escrever a observação caso precise de algo especial ou para especificar caso precise de acessibilidade, é seu direito ser bem servido e é nossa missão é te trazer a um mundo de encanto e magia por algumas horas em nome da lua!</p>
-
-        <form action="#" method="post">
+  </header>
+  <article>
+        <form action="#" method="post" class="cadastro">
             <div class="form-group">
                 <label for="nome">Nome:</label>
                 <input type="text" class="form-control" id="nome" name="nome" required>
@@ -95,8 +73,9 @@
                 <textarea class="form-control" id="observacao" name="observacao" rows="8"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Reservar</button>
+            <button type="submit" class="button">Reservar</button>
         </form>
+  </article>
 
         <a href="sailorcoffee.html">Ir Para Página de Pedidos</a>
     </div>

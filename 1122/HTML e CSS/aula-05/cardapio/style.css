@@ -1,21 +1,34 @@
+body {
+    background-color: #fbefa46d; /* Cor de fundo */
+    background-image: url(https://i.pinimg.com/originals/0d/ff/12/0dff12883e37d102981a1cbf01401a64.png); /* Imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
+    font-family:'Georgia', serif; /* Substitua 'Arial' pela fonte desejada */
+    text-align: center; /* Centraliza o conteúdo do corpo da página */
+}
+
+main {
+    display: flex;
+    flex-direction: right;
+    gap: 20rem;
+
+}
+
 h1 {
-    color: #f0ff90;
+    color: #9703f3;
 }
 
 h2{
     color: #9703f3;
 }
-
 /* Estilizando a tabela */
 table {
     background-color: #ffffcc68;
+    display: flex;
     width: 100%;
     max-width: 600px;
+    border-radius: 8%;
     border-collapse: collapse;
-    margin-top: 20px; /* Ajuste conforme necessário */
-    margin-left: auto; /* Centraliza a tabela horizontalmente */
-    margin-right: auto; /* Centraliza a tabela horizontalmente */
-
+    margin-left: 0%;
 }
 
 /* Estilizando as células da tabela */
@@ -24,52 +37,33 @@ td {
     padding: 8px;
     text-align: left;
 }
+
 td img {
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura da célula */
     transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave para o efeito */
+    border-radius: 8%;
 }
 
 /* Aplica um aumento de tamanho ao passar o mouse na imagem */
 td img:hover {
-    transform: scale(12.2); /* Ajuste o valor conforme necessário para o aumento desejado */
+    transform: scale(6.5); /* Ajuste o valor conforme necessário para o aumento desejado */
 }
 /* Estilizando as imagens */
 img {
-    max-width: 90%; /* Defina o tamanho máximo da largura conforme necessário */
-    max-height: 150px; /* Defina o tamanho máximo da altura conforme necessário */
+    max-width: 100%; /* Defina o tamanho máximo da largura conforme necessário */
+    max-height: 100%; /* Defina o tamanho máximo da altura conforme necessário */
     display: block; /* Evita espaços extras abaixo das imagens */
-    margin: auto; /* Centraliza as imagens */
+    margin: auto; /* Centraliza as imagens */ 
 }
 
-body {
-    background-color: #fbefa46d; /* Cor de fundo */
-    background-image: url(https://img.freepik.com/vetores-gratis/fundo-gradiente-de-ceu-pastel_23-2148898336.jpg?w=1380&t=st=1705422981~exp=1705423581~hmac=6adbac29d6b126c19b415fa7bcb5a8c53e46272c36bde07c3ecf577b514ea734); /* Imagem de fundo */
- 
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
-    font-family:'Georgia', serif; /* Substitua 'Arial' pela fonte desejada */
-}
-
-h1, h2, h3, p, label, th, td {
-    font-family: 'Inconsolata', monospace;
-}
-
-
-button {
-    background-color: #e51a5799;
-    color: rgba(255, 255, 255, 0.623);
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-body {
-    text-align: center; /* Centraliza o conteúdo do corpo da página */
+.cardapio {
+    display: flexbox;
+    flex: 1;
 }
 
 #formulario-pedido {
     display: inline-block; /* Torna o formulário um bloco de nível e mantém o alinhamento centralizado */
-    text-align: left; /* Alinha o texto do formulário à esquerda dentro do bloco centralizado */
+    text-align: center; /* Alinha o texto do formulário à esquerda dentro do bloco centralizado */
     margin: 20px auto; /* Adiciona margens para ajustar a posição vertical e horizontalmente */
 }
 
@@ -86,3 +80,26 @@ p {
     text-align: center; /* Centraliza o texto do rodapé */
 }
 
+.content {
+    display: flex;
+    max-width: 1200px;
+}
+
+.image-container {
+    flex: 1; /* Ocupa todo o espaço disponível */
+    margin-right: auto; /* Adiciona espaçamento entre a imagem e o cardápio */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+button {
+    background-color: #e51a5799;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

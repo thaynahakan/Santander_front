@@ -2,7 +2,7 @@ class ContaGeral {
   agencia: number;
   conta: number;
   saldo: number;
-  movimentacoes: string[] = [];
+  extrato: string[] = [];
 
   sacar(valor: number): void {
     // Atualiza o saldo
@@ -11,7 +11,7 @@ class ContaGeral {
 
     this.saldo = novoSaldo; // Correção: estava escrito novoSalvo
     // Registra a movimentação
-    this.movimentacoes.push(mensagemExtrato);
+    this.extrato.push(mensagemExtrato);
   }
 
   consultarSaldo(): number {
@@ -22,10 +22,10 @@ class ContaGeral {
     let novoSaldo = this.saldo + valor;
     let mensagemExtrato = `Você Depositou ${valor} | Saldo anterior: ${this.saldo} | Saldo atualizado: ${novoSaldo}`;
     this.saldo = novoSaldo;
-    this.movimentacoes.push(mensagemExtrato);
+    this.extrato.push(mensagemExtrato);
   }
 
   consultarExtrato(): string[] {
-    return this.movimentacoes;
+    return this.extrato;
   }
 }
